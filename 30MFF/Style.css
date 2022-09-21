@@ -1,0 +1,430 @@
+/*For ALL Pages*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lora';
+  font-weight: normal;
+}
+
+body{
+  margin: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+h1{
+  font-size: 100px;
+}
+
+p{
+  font-size: 24px;
+}
+
+a, button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.sectionContainer{
+  background: #F7F7F7;
+}
+
+.nextButton{
+  background-color: transparent;
+  border: none;
+}
+
+.textTitle{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 50px;
+}
+
+.sectionTitle{
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: rgb(160,160,160);
+  letter-spacing: 4px;
+}
+
+.textTitle > h1{
+  margin-bottom: 60px;
+}
+
+.videoContainer{
+  text-align: center;
+}
+
+.myVideo{
+  min-width: 10%;
+  min-height: 10%;
+  width: 60%;
+  height: 60%;
+}
+
+.buttonMoreContainer{
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+
+.buttonMoreContainer > a{
+  color: white;
+  background: #25316D;
+  padding: 7px 25px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+/*Index Page*/
+.indexHtml{
+ margin: 0;
+ height: 100vh;
+ width: 100%;
+ overflow: hidden;
+}
+
+.indexBody{
+  background: url("indexBackground.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.backgroundText{
+  margin-top: 120px;
+  color: white;
+}
+
+.backgroundText > h1{
+  margin-left: 30px;
+  font-size: 160px;
+  font-style: italic;
+}
+
+.backgroundText > p{
+  margin-left: 50px;
+  font-size: 65px;
+}
+
+.indexContainer{
+  text-align: center;
+  margin-top: 400px;
+  height: 100px;
+}
+
+.indexButton{
+  background-color: transparent;
+  border: none;
+}
+
+.indexButton > img{
+  width: 5vw;
+  transition: transform 0.25s;
+}
+
+/*Header*/
+.nav{
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 20px -20px;
+}
+
+.websiteLogo{
+  margin: 0;
+  margin-left: 80px;
+  margin-top: 15px;
+  height: 100px;
+}
+
+.navTextContainer{
+  display: flex;
+  margin-left: 620px;
+}
+
+.navTextB{
+  margin: auto 30px;
+  padding: 10px 20px;
+}
+
+.navTextB:hover{
+  border-bottom: 2px solid #25316D;
+}
+
+/*Home Page*/
+.videoDescription{
+  text-align: center;
+  width: 70vw;
+  text-align: justify;
+  margin: 20px auto;
+  text-indent: 1em;
+}
+
+.newSectionHL{
+  width: 6%;
+  height: 3.5px;
+  border: none;
+  margin: 30px auto;
+  background: #25316D;
+}
+
+.imageBts1Containter, .imageBts2Containter{
+  display: flex;
+}
+
+.imageBts1, .imageBts2{
+  width:75vw;
+  height: 75vh;
+  margin: 0px 30px;
+}
+
+.imageBts1, .svgBts1{
+  margin-left: 0px;
+}
+
+.imageBts2, .svgBts2{
+  margin-top: 30px;
+  margin-right:0px;
+}
+
+svg{
+  width: calc(100vw - 133vh - 60px);
+  height: 75vh;
+  margin: 0;
+}
+
+rect{
+  width: calc(100vw - 133vh - 60px);
+  height: 75vh;
+  fill: #25316D;
+}
+
+text{
+  stroke: white;
+  fill: white;
+}
+
+.linkInText{
+  font-weight: bold;
+}
+
+/*Visit D2*/
+.counterListContainer{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 2.5vw;
+  width: 80vw;
+  margin:auto;
+}
+
+.counterName, .counterDescriptionContainer{
+  width:40vw;
+  margin:0;
+}
+
+.counterName{
+  color: white;
+  background: rgba(80,80,80,0.7);
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 7.7vw;
+}
+
+.counterNameContainer{
+  height:20vw;
+}
+
+.counterDescriptionContainer{
+  font-size: 30px;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid black;
+}
+
+.counterDescriptionContainer.L{
+  text-align: left;
+}
+
+.counterDescriptionContainer.R{
+  text-align: right;
+}
+
+.counterDescriptionContainer.L > ul{
+  margin-left: 28px;
+}
+
+.counterDescriptionContainer.R > ul{
+  margin-right: calc(1em + 28px);
+}
+
+.counterNameContainer.vegetarian{
+  background: url("vegetarian.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.currylicious{
+  background: url("currylicious.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.justBaked{
+  background: url("justBaked.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.aLaBrasa{
+  background: url("aLaBrasa.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.flavorsOfTheWorld{
+  background: url("flavorsOfTheWorld.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.subjects{
+  background: url("subjects.png") no-repeat center center fixed;
+}
+
+.counterNameContainer.saladBar{
+  background: url("saladBar.png") no-repeat center center fixed;
+}
+
+.space{
+  height: 200px;
+}
+
+.creditTitle{
+  font-size: 100px;
+  margin-left:20px;
+}
+
+.creditContainer{
+  width:90vw;
+  display:flex;
+  margin:auto;
+  gap: 30px;
+}
+
+.imageFace{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.textCredits{
+  width:30vw;
+  font-size: 50px;
+}
+
+.textCredits > h2,p{
+  margin: 30px;
+}
+
+.describeCredit{
+  margin-top: 20px;
+  margin-left: 35px;
+  border-top: 3.5px solid rgb(160,160,160);
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.logoContainer{
+  display: flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageLogo{
+  height:35px;
+}
+
+.songTitle{
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*BTS Page*/
+.imageCarousel{
+  width:500vw;
+  height: 33.75vw;
+  margin:0;
+  transition: transform 0.5s;
+}
+
+.btsImage{
+  width:60vw;
+  float:left;
+  margin: 0 20vw;
+  text-align: center;
+}
+
+.btsImage img{
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+
+.nextButton{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+.nextButton > img{
+  width: 30px;
+}
+
+.imageBL{
+  left:5%;
+}
+
+.imageBR{
+  left:95%;
+}
+
+.buttonContainer{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageButton{
+  margin: 0px 5px;
+  height:10px;
+  width:10px;
+  border-radius: 50%;
+}
+
+/*Footer*/
+footer{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footerLinks{
+  margin-bottom: 30px;
+}
+
+.footerLinks > h3 > a{
+  font-weight: bold;
+}
+
+.schoolLogo img{
+  width: 15vw;
+  margin-bottom: 30px;
+}
+
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 2.5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(180,180,180);
+}
