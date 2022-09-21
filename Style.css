@@ -103,18 +103,18 @@ a{
 
 .backgroundText > h1{
   margin-left: 30px;
-  font-size: 150px;
+  font-size: 160px;
   font-style: italic;
 }
 
 .backgroundText > p{
   margin-left: 50px;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .indexContainer{
   text-align: center;
-  margin-top: 330px;
+  margin-top: 400px;
   height: 100px;
 }
 
