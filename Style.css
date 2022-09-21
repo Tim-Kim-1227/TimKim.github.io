@@ -92,7 +92,7 @@ a{
 }
 
 .indexBody{
-  background: url("indexBackground.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/indexBackground.png") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -263,31 +263,31 @@ text{
 }
 
 .counterNameContainer.vegetarian{
-  background: url("vegetarian.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/vegetarian.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.currylicious{
-  background: url("currylicious.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/currylicious.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.justBaked{
-  background: url("justBaked.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/justBaked.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.aLaBrasa{
-  background: url("aLaBrasa.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/aLaBrasa.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.flavorsOfTheWorld{
-  background: url("flavorsOfTheWorld.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/flavorsOfTheWorld.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.subjects{
-  background: url("subjects.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/subjects.png") no-repeat center center fixed;
 }
 
 .counterNameContainer.saladBar{
-  background: url("saladBar.png") no-repeat center center fixed;
+  background: url("/30MFF/resources/saladBar.png") no-repeat center center fixed;
 }
 
 .creditTitle{
